@@ -43,7 +43,6 @@ describe('arrays', function() {
 
   it('you should be able to add an item to the end of an array', function() {
     var result = arraysAnswers.append(a, 10);
-
     expect(result).to.have.length(5);
     expect(result[result.length - 1]).to.eql(10);
   });

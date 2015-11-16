@@ -5,14 +5,11 @@ exports.countAnswers = {
     var i;
     function counter () {
       console.log(start++);
-
       if (start <= end) {
-        i = setTimeout(counter, 200);
+        i = setTimeout(counter, 100);
       }
     }
-
     counter();
-
     return {
       cancel : function () {
         clearTimeout(i);
