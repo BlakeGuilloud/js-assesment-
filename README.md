@@ -42,7 +42,7 @@ libraries when writing your solutions!
 
 ## I hate \<some technology you've chosen\>
 
-This repo uses [Mocha](http://visionmedia.github.com/mocha/) and
+This repo uses [Mocha](http://mochajs.org/) and
 [Chai](http://chaijs.com/) for the tests themselves. It uses the BDD style for authoring tests.
 If this doesn't suit you, please fork away, or, better, submit a pull request that lets
 this be more flexible than it currently is.
